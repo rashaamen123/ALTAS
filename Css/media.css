@@ -1,0 +1,65 @@
+ @media (max-width: 575.98px)  {
+    .logo{
+        margin-left: 12px;
+    }
+    .bar {
+    display: block;
+    padding-left: 20%;
+    }
+    .navbar{
+        display: none;
+    }
+    .mune-headers:hover .navbar{
+        display: block;
+    }
+    .house{
+        flex-direction: column;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .par{
+        font-size: 15px;
+    }
+    .photo{
+        margin-left: -5%;
+    }
+    .black{
+        display: block;
+    }
+    .bar{
+        display: block;
+    }
+    .sub-menu{
+        display: none;
+    }
+    .menu:hover .sub-menu{
+        display: block;
+    }
+}
+@media (max-width: 767.98px) { 
+    .logo{
+        margin-left: 12px;
+    }
+    .mune-headers {
+    display: block;
+    padding-left: 20%;
+    }
+    .house{
+        flex-direction: column-reverse;
+    }
+    .title{
+        font-size: 27px;
+    }
+    .par{
+        font-size: 27px;
+    }
+ }
+ @media (max-width: 991.98px) {
+    .mune-headers {
+        padding-left: 20%;
+        }
+        .house{
+            flex-direction:column;
+        }
+  }
